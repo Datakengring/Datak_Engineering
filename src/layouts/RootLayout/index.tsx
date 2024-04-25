@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 // { children }: { children: ReactNode }
 const RootLayout = () => {
   return (
-    <div className="h-[100vh] w-[100%] overflow-auto">
+    <div className="h-[100vh] w-[100%] overflow-y-auto">
       <NavBar />
       <main>
         <Outlet />
