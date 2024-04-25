@@ -1,6 +1,15 @@
+:root {
+  --primary: #080051;
+}
 #root {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
+/* nav a {
+  color: #676767;
+}
+nav a.active {
+  color: var(--primary);
+} */
