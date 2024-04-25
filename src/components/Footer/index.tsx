@@ -14,13 +14,13 @@ const Footer = () => {
           <NavLink to={"/"}>
             <img src={logo} className="h-[2rem]" alt="logo" />
           </NavLink>
-          <p className="w-[50%] mt-[2rem]">
+          <p className="lg:w-[50%] mt-[2rem]">
             Our mission is to deliver unparalleled engineering services that
             drive success andsustainability in the oil and gas sector
           </p>
         </div>
         <div className="flex">
-          <div className="w-[12rem] flex flex-col gap-2">
+          <div className="lg:w-[12rem] flex flex-col gap-2">
             <h2 className="text-[#383A47] text-[1rem] font-[700]">Company</h2>
             <NavLink className="hover:underline" to={"about-us"}>
               About Us
@@ -38,7 +38,7 @@ const Footer = () => {
               Contact Us
             </NavLink>
           </div>
-          <div className="w-[13rem] flex flex-col gap-2 text-black">
+          <div className="lg:w-[13rem] flex flex-col gap-2 text-black">
             <div className="flex items-center text-end justify-end gap-4">
               <a href="">
                 <PiFacebookLogoFill

@@ -11,7 +11,7 @@ const HomePage = () => {
           <h2 className="bg-gradient-to-r from-linearOne to-linearTwo inline-block text-transparent bg-clip-text text-[2.4rem] lg:text-[3rem] font-[600]">
             Precision Engineering
             <br />
-            <span className="text-textColorPrimary font-[500]">
+            <span className="text-textColorPrimary">
               for the Dynamic Oil and Gas Sector
             </span>
           </h2>
