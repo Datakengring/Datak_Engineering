@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom";
 import MainWrapper from "../../layouts/MainWrapper";
 import heroOne from "/images/engineers.webp";
 import PrimaryButton from "../../components/Buttons/PrimaryButton";
-import { SiEclipseide } from "react-icons/si";
 import SecondaryButton from "../../components/Buttons/SecondaryButton";
 
 const HomePage = () => {
