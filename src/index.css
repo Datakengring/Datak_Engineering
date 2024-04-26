@@ -1,5 +1,10 @@
 @tailwind base;
 /* :root{} */
 @tailwind components;
-
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", system-ui, sans-serif;
+  }
+}

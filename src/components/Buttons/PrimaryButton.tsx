@@ -11,7 +11,7 @@ const PrimaryButton = ({
   return (
     <Link
       to={path}
-      className="bg-primary text-white py-[0.5rem] px-[1.2rem] rounded-[0.5rem] hover:bg-opacity-90"
+      className="bg-primary text-white py-[0.5rem] px-3 lg:px-[1.2rem] rounded-[0.5rem] hover:bg-opacity-90"
     >
       {children}
     </Link>
