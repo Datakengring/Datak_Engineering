@@ -9,6 +9,7 @@ export default {
         textColorPrimary: "#333333",
         linearOne: "#080051",
         linearTwo: "#6252F6",
+        yellow: "#EAA508",
       },
     },
   },

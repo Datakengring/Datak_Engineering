@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="w-[100%] text-[#797B89] flex flex-col items-center text-[0.875rem]">
+    <div className="w-[100%] text-[#797B89] flex flex-col items-center text-[0.875rem] border-t-[1px] border-solid border-secondary">
       <div className="flex flex-col lg:flex-row py-[2rem] px-[1.5rem] lg:px-[4rem] lg:gap-[5rem] gap-[2rem] justify-between">
         <div className="flex-grow">
           <NavLink to={"/"}>
