@@ -6,6 +6,7 @@ export default {
       colors: {
         primary: "#080051",
         secondary: "#F2F2F2",
+        tertiary: "#FCFCFC",
         textColorPrimary: "#333333",
         linearOne: "#080051",
         linearTwo: "#6252F6",
