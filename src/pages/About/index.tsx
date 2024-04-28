@@ -6,6 +6,9 @@ import one from "/images/one.webp";
 import two from "/images/two.webp";
 import three from "/images/three.webp";
 import four from "/images/four.webp";
+import deOne from "/images/de-one.webp";
+import deTwo from "/images/de-one.webp";
+import deThree from "/images/de-one.webp";
 import nnpc from "/svgs/nnpc.svg";
 import shells from "/svgs/shells.svg";
 import seplat from "/svgs/seplat.svg";
@@ -36,14 +39,26 @@ const AboutUs = () => {
       </div>
       <div className=" bg-white p-24 w-[100%] flex flex-col gap-2">
         <h5 className=" font-normal text-2xl ">
-          Welcometo Datak Engineering Service Limited, a leading provider of
+          Welcome to Datak Engineering Service Limited, a leading provider of
           innovativeengineering solutions tailored to meet the diverse needs of
           the oil and gasindustry.
         </h5>
-        <div className="flex flex-row gap-5 ">
-          <img src="" className="rounded-2xl" alt="engineering service-1" />
-          <img src="" className="rounded-2xl" alt="engineering service-2" />
-          <img src="" className="rounded-2xl" alt="engineering service-3" />
+        <div className="flex flex-row gap-5 justify-between w-full mt-7">
+          <img
+            src={deOne}
+            className="rounded-2xl"
+            alt="engineering service-1"
+          />
+          <img
+            src={deTwo}
+            className="rounded-2xl"
+            alt="engineering service-2"
+          />
+          <img
+            src={deThree}
+            className="rounded-2xl"
+            alt="engineering service-3"
+          />
         </div>
       </div>
       <div className=" bg-white p-24 w-[100%] flex flex-col gap-16">
