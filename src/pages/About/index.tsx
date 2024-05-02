@@ -21,7 +21,7 @@ const AboutUs = () => {
       <div className=" bg-secondary flex flex-col justify-center items-center px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem]">
         <StarWords word="About us" />
         <h2 className=" text-[2rem] font-[600] lg:text-[2.4rem]">
-          Welcome to
+          Welcome to{" "}
           <span className=" bg-gradient-to-r from-linearOne to-linearTwo inline-block text-transparent bg-clip-text ">
             DATAK
           </span>

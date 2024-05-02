@@ -21,7 +21,7 @@ const HomePage = () => {
     <MainWrapper>
       <div className="bg-secondary px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] flex flex-col gap-[3rem] lg:gap-0 lg:flex-row">
         <div className="w-[100%] lg:w-[50%]">
-          <h2 className="bg-gradient-to-r from-linearOne to-linearTwo inline-block text-transparent bg-clip-text text-[2.4rem] lg:text-[3rem] font-[600]">
+          <h2 className="bg-gradient-to-r from-linearOne to-linearTwo inline-block text-transparent bg-clip-text text-[1.8rem] font-[600] lg:text-[2.4rem]">
             Precision Engineering
             <br />
             <span className="text-textColorPrimary">
