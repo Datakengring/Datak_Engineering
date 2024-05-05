@@ -1,4 +1,4 @@
-import MainWrapper from "../layouts/MainWrapper";
+import MainWrapper from "../../layouts/MainWrapper";
 
 const Loader = () => {
   return (
