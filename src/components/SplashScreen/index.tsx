@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import anime from "animejs";
 import logo from "/svgs/logo.svg";
 
-const SplashScreen = ({ finishLoading }: { finishLoading: any }) => {
+const SplashScreen = ({ finishLoading }: { finishLoading: () => void }) => {
   // const [isMounted, setIsMounted] = useState(false);
   const animate = () => {
     const loader = anime.timeline({ complete: () => finishLoading() });
