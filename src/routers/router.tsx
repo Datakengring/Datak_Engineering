@@ -22,19 +22,19 @@ import {
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route element={<SuspenseLayout />}>
-      <Route path="/" element={<RootLayout />}>
-        <Route element={<SuspenseLayout />}>
-          <Route index element={<HomePage />}></Route>
-          <Route path="what-we-do" element={<WhatWeDo />}></Route>
-          <Route path="about-us" element={<AboutUs />}></Route>
-          <Route
-            path="process-equipment-design"
-            element={<EquipmentDesign />}
-          ></Route>
-          <Route path="contact-us" element={<ContactUs />}></Route>
-        </Route>
+    // <Route element={<SuspenseLayout />}>
+    <Route path="/" element={<RootLayout />}>
+      <Route element={<SuspenseLayout />}>
+        <Route index element={<HomePage />}></Route>
+        <Route path="what-we-do" element={<WhatWeDo />}></Route>
+        <Route path="about-us" element={<AboutUs />}></Route>
+        <Route
+          path="process-equipment-design"
+          element={<EquipmentDesign />}
+        ></Route>
+        <Route path="contact-us" element={<ContactUs />}></Route>
       </Route>
     </Route>
+    // </Route>
   )
 );
