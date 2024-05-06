@@ -3,8 +3,12 @@ import MainWrapper from "../../layouts/MainWrapper";
 import engineer from "/images/engineer.webp";
 import GradientWord from "../../components/GradientWord";
 import PrimaryButton from "../../components/Buttons/PrimaryButton";
-import Expertise from "../../components/CommonCards/Expertise";
 import ContactSection from "../../components/CommonCards/ContactSection";
+import ActivityCard from "../../components/ActivityCard";
+import one from "/images/one.webp";
+import two from "/images/two.webp";
+import three from "/images/three.webp";
+import four from "/images/four.webp";
 
 const WhatWeDo = () => {
   return (
@@ -53,7 +57,6 @@ const WhatWeDo = () => {
           }
           image={four}
         />
-
       </div>
       <div className="bg-secondary px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] flex flex-col gap-[3rem] justify-between items-center lg:gap-0 lg:flex-row">
         {" "}
