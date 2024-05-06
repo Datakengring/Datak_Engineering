@@ -22,52 +22,52 @@ import ContactForm from "../../components/ContactForm";
 const AboutUs = () => {
   return (
     <MainWrapper>
-      <div className=" bg-secondary flex flex-col justify-center items-center py-24 ">
+      <div className=" bg-secondary flex flex-col justify-center items-center py-24 px-5  ">
         <StarWords word="About us" />
-        <h2 className=" text-[2.4rem] font-[600]   lg:text-[3rem]">
+        <h2 className=" text-[2.4rem] font-[600] text-center lg:text-[3rem]">
           Welcome to
           <span className=" bg-gradient-to-r from-linearOne to-linearTwo inline-block text-transparent bg-clip-text ">
             DATAK
           </span>
         </h2>
 
-        <p className=" w-[50%] text-center font-normal text-lg mt-2">
+        <p className="w-[100%] md:w-[50%]  text-center font-normal text-lg mt-2">
           Welcome to Datak Engineering Service Limited, a leading provider of
           innovativeengineering solutions tailored to meet the diverse needs of
           the oil and gasindustry.
         </p>
       </div>
-      <div className=" bg-white p-24 w-[100%] flex flex-col gap-2">
-        <h5 className=" font-normal text-2xl ">
+      <div className=" bg-white py-24 px-5 md:px-24 w-[100%] flex flex-col gap-2">
+        <h5 className=" font-normal lg:text-2xl text-lg">
           Welcome to Datak Engineering Service Limited, a leading provider of
           innovativeengineering solutions tailored to meet the diverse needs of
           the oil and gasindustry.
         </h5>
-        <div className="flex flex-row gap-5 justify-between w-full mt-7">
+        <div className="flex flex-row gap-5 justify-between w-full mt-7 flex-wrap">
           <img
             src={deOne}
-            className="rounded-2xl"
+            className="rounded-2xl w-full md:w-[31%]"
             alt="engineering service-1"
           />
           <img
             src={deTwo}
-            className="rounded-2xl"
+            className="rounded-2xl w-full md:w-[31%]"
             alt="engineering service-2"
           />
           <img
             src={deThree}
-            className="rounded-2xl"
+            className="rounded-2xl w-full md:w-[31%]"
             alt="engineering service-3"
           />
         </div>
       </div>
-      <div className=" bg-white p-24 w-[100%] flex flex-col gap-16">
+      <div className=" bg-white py-24 px-5 w-[100%] flex flex-col gap-16">
         <h3 className=" font-semibold text-3xl text-center">
           Fueling Success with <GradientWord word="Precision Engineering" /> in
           the Oil and Gas Sector.
         </h3>
-        <div className="flex gap-5">
-          <div className=" bg-tertiary p-6 rounded-sm">
+        <div className="flex gap-5 w-full flex-wrap">
+          <div className=" bg-tertiary p-6 rounded-sm w-full md:w-[48%]">
             <h4 className=" font-semibold text-lg">Our Mission</h4>
             <p className=" text-base mt-4">
               Lorem ipsum dolor sit amet consectetur. Sit quis pellentesque arcu
@@ -83,7 +83,7 @@ const AboutUs = () => {
               condimentum et cursus at amet ut.
             </p>
           </div>
-          <div className=" bg-tertiary p-6 rounded-sm">
+          <div className=" bg-tertiary p-6 rounded-sm w-full md:w-[48%]">
             <h4 className=" font-semibold text-lg">Our Vision</h4>
             <p className=" text-base mt-4">
               Lorem ipsum dolor sit amet consectetur. Sit quis pellentesque arcu
@@ -101,7 +101,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white px-24 ">
+      <div className="bg-white md:px-24 px-5 ">
         <div className="lg:w-[75%] mt-[4rem] lg:mt-[6rem] flex flex-col items-center mx-auto">
           <StarWords word="Our Exoertise" />
           <h2 className="text-textColorPrimary text-center text-[1.2rem] lg:text-[2rem] font-[600]">
