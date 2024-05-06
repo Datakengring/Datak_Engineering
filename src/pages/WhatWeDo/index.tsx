@@ -1,15 +1,10 @@
-import ActivityCard from "../../components/ActivityCard";
 import StarWords from "../../components/StarWords";
 import MainWrapper from "../../layouts/MainWrapper";
-import one from "/images/one.webp";
-import two from "/images/two.webp";
-import three from "/images/three.webp";
-import four from "/images/four.webp";
 import engineer from "/images/engineer.webp";
-import report from "/images/report.webp";
 import GradientWord from "../../components/GradientWord";
 import PrimaryButton from "../../components/Buttons/PrimaryButton";
-import ContactForm from "../../components/ContactForm";
+import Expertise from "../../components/CommonCards/Expertise";
+import ContactSection from "../../components/CommonCards/ContactSection";
 
 const WhatWeDo = () => {
   return (
@@ -58,6 +53,7 @@ const WhatWeDo = () => {
           }
           image={four}
         />
+
       </div>
       <div className="bg-secondary px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] flex flex-col gap-[3rem] justify-between items-center lg:gap-0 lg:flex-row">
         {" "}
@@ -79,19 +75,7 @@ const WhatWeDo = () => {
           <img src={engineer} alt="engineer" className="object-cover w-full" />
         </div>
       </div>
-      <div className="bg-secondary px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] flex flex-col gap-[3rem] justify-between items-center lg:gap-0 lg:flex-row">
-        <div className="lg:w-[40%] p-3 bg-[#08005114] rounded-[0.75rem]">
-          <img src={report} alt="engineer" />
-        </div>
-        <div className="lg:w-[50%] ">
-          <StarWords word={"Consult our team"} />
-          <p className="text-textColorPrimary text-[1.2rem] lg:text-[2rem] font-[600] mb-[1.5rem]">
-            Your <GradientWord word="Engineered Solution" /> for Oil and Gas
-            Industry Demands.
-          </p>
-          <ContactForm />
-        </div>
-      </div>
+      <ContactSection />
     </MainWrapper>
   );
 };

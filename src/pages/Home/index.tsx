@@ -2,15 +2,9 @@ import MainWrapper from "../../layouts/MainWrapper";
 import heroOne from "/images/engineers.webp";
 import PrimaryButton from "../../components/Buttons/PrimaryButton";
 import SecondaryButton from "../../components/Buttons/SecondaryButton";
-import ActivityCard from "../../components/ActivityCard";
 import StarWords from "../../components/StarWords";
-import one from "/images/one.webp";
-import two from "/images/two.webp";
-import three from "/images/three.webp";
-import four from "/images/four.webp";
 import GradientWord from "../../components/GradientWord";
 import inspect from "/images/inspect.webp";
-import report from "/images/report.webp";
 import ReasonCard from "../../components/ReasonCard";
 import nnpc from "/svgs/nnpc.svg";
 import shells from "/svgs/shells.svg";
@@ -19,14 +13,15 @@ import transcorp from "/svgs/transcorp.svg";
 import total from "/svgs/total.svg";
 import amazon from "/svgs/amazon.svg";
 import nigeria from "/svgs/nigeria.svg";
-import ContactForm from "../../components/ContactForm";
+import Expertise from "../../components/CommonCards/Expertise";
+import ContactSection from "../../components/CommonCards/ContactSection";
 
 const HomePage = () => {
   return (
     <MainWrapper>
       <div className="bg-secondary px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] flex flex-col gap-[3rem] lg:gap-0 lg:flex-row">
         <div className="w-[100%] lg:w-[50%]">
-          <h2 className="bg-gradient-to-r from-linearOne to-linearTwo inline-block text-transparent bg-clip-text text-[2.4rem] lg:text-[3rem] font-[600]">
+          <h2 className="bg-gradient-to-r from-linearOne to-linearTwo inline-block text-transparent bg-clip-text text-[1.8rem] font-[600] lg:text-[2.4rem]">
             Precision Engineering
             <br />
             <span className="text-textColorPrimary">
@@ -87,36 +82,7 @@ const HomePage = () => {
             habitant dui consectetur sed nam amet, magna. Iet se
           </p>
         </div>
-        <div className="w-[100%] grid grid-cols-1 lg:grid-cols-2 gap-8 mt-[2.5rem] lg:mt-[5rem]">
-          <ActivityCard
-            header={"Training service"}
-            info={
-              "Our courses are designed to enhance skills and proficiency in compliance with industry standards such as ASME, API, and ANSI."
-            }
-            image={one}
-          />
-          <ActivityCard
-            header={"Design Engineering"}
-            info={
-              "From conceptualization to execution, our design engineering services ensure precision, efficiency, and compliance with regulatory codes and standards."
-            }
-            image={two}
-          />
-          <ActivityCard
-            header={"Technical Support"}
-            info={
-              "Our dedicated technical support team provides expert guidance and assistance to overcome challenges and ensure regulatory compliance."
-            }
-            image={three}
-          />
-          <ActivityCard
-            header={"Process Equipment Design"}
-            info={
-              "Trust our experienced engineers to deliver innovative and reliable process equipment designs, adhering to codes and standards."
-            }
-            image={four}
-          />
-        </div>
+        <Expertise />
       </div>
       <div className="bg-secondary px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] flex flex-col gap-[3rem] justify-between items-center lg:gap-0 lg:flex-row">
         <div className="lg:w-[40%] p-3 bg-[#08005114] rounded-[0.75rem]">
@@ -178,19 +144,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className="bg-secondary px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] flex flex-col gap-[3rem] justify-between items-center lg:gap-0 lg:flex-row">
-        <div className="lg:w-[40%] p-3 bg-[#08005114] rounded-[0.75rem]">
-          <img src={report} alt="engineer" />
-        </div>
-        <div className="lg:w-[50%] ">
-          <StarWords word={"Consult our team"} />
-          <p className="text-textColorPrimary text-[1.2rem] lg:text-[2rem] font-[600] mb-[1.5rem]">
-            Your <GradientWord word="Engineered Solution" /> for Oil and Gas
-            Industry Demands.
-          </p>
-          <ContactForm />
-        </div>
-      </div>
+      <ContactSection />
     </MainWrapper>
   );
 };
