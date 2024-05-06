@@ -9,51 +9,20 @@ import ContactSection from "../../components/CommonCards/ContactSection";
 const WhatWeDo = () => {
   return (
     <MainWrapper>
-      <div className=" bg-secondary flex flex-col justify-center items-center py-24 px-5 ">
+      <div className=" bg-secondary flex flex-col justify-center items-center px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem]">
         <StarWords word="What We Do" />
-        <h2 className=" text-[2.4rem] font-[600] text-center lg:text-[3rem]">
-          <span className=" bg-gradient-to-r from-linearOne to-linearTwo inline-block text-transparent bg-clip-text ">
-            Engineering Excellence
-          </span>{" "}
+        <h2 className=" text-[2rem] font-[600] lg:text-[2.4rem]">
+          <GradientWord word="Engineering Excellence" />
           for Oil and Gas Challenges.
         </h2>
 
-        <p className=" w-[100%] md:w-[50%] text-center font-normal text-lg mt-2">
+        <p className=" w-[50%] text-center font-normal text-lg mt-2">
           With years of industry experience and a team of highly skilled
           professionals, we specialize in four core areas:
         </p>
       </div>
-
-      <div className=" bg-white  py-24 px-5 md:px-24  w-[100%] grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <ActivityCard
-          header={"Training service"}
-          info={
-            "Our courses are designed to enhance skills and proficiency in compliance with industry standards such as ASME, API, and ANSI."
-          }
-          image={one}
-        />
-        <ActivityCard
-          header={"Design Engineering"}
-          info={
-            "From conceptualization to execution, our design engineering services ensure precision, efficiency, and compliance with regulatory codes and standards."
-          }
-          image={two}
-        />
-        <ActivityCard
-          header={"Technical Support"}
-          info={
-            "Our dedicated technical support team provides expert guidance and assistance to overcome challenges and ensure regulatory compliance."
-          }
-          image={three}
-        />
-        <ActivityCard
-          header={"Process Equipment Design"}
-          info={
-            "Trust our experienced engineers to deliver innovative and reliable process equipment designs, adhering to codes and standards."
-          }
-          image={four}
-        />
-
+      <div className="px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem]">
+        <Expertise />
       </div>
       <div className="bg-secondary px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] flex flex-col gap-[3rem] justify-between items-center lg:gap-0 lg:flex-row">
         {" "}
