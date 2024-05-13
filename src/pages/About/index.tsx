@@ -2,8 +2,8 @@ import GradientWord from "../../components/GradientWord";
 import StarWords from "../../components/StarWords";
 import MainWrapper from "../../layouts/MainWrapper";
 import deOne from "/images/de-one.webp";
-import deTwo from "/images/de-one.webp";
-import deThree from "/images/de-one.webp";
+import deTwo from "/images/de-two.webp";
+import deThree from "/images/de-three.webp";
 import nnpc from "/svgs/nnpc.svg";
 import shells from "/svgs/shells.svg";
 import seplat from "/svgs/seplat.svg";
@@ -13,7 +13,11 @@ import amazon from "/svgs/amazon.svg";
 import nigeria from "/svgs/nigeria.svg";
 import report from "/images/report.webp";
 import ContactForm from "../../components/ContactForm";
-import Expertise from "../../components/CommonCards/Expertise";
+import one from "/images/one.webp";
+import two from "/images/two.webp";
+import three from "/images/three.webp";
+import four from "/images/four.webp";
+import ActivityCard from "../../components/ActivityCard";
 
 const AboutUs = () => {
   return (
@@ -29,30 +33,30 @@ const AboutUs = () => {
 
         <p className=" w-[50%] text-center font-normal text-lg mt-2">
           Welcome to Datak Engineering Service Limited, a leading provider of
-          innovativeengineering solutions tailored to meet the diverse needs of
-          the oil and gasindustry.
+          innovative engineering solutions tailored to meet the diverse needs of
+          the oil and gas industry.
         </p>
       </div>
-      <div className=" bg-white p-24 w-[100%] flex flex-col gap-2">
-        <h5 className=" font-normal text-2xl ">
-          Welcome to Datak Engineering Service Limited, a leading provider of
-          innovativeengineering solutions tailored to meet the diverse needs of
-          the oil and gasindustry.
+      <div className=" bg-white  p-24 w-[100%] flex flex-col gap-2">
+        <h5 className=" font-normal">
+          With a steadfast commitment to excellence, integrity, and client
+          satisfaction, we have established ourselves as trusted partners in the
+          pursuit of engineering excellence.
         </h5>
-        <div className="flex flex-row gap-5 justify-between w-full mt-7">
+        <div className="flex flex-row gap-10 justify-between w-full mt-7">
           <img
             src={deOne}
-            className="rounded-2xl"
+            className="h-[22rem] w-full rounded-2xl"
             alt="engineering service-1"
           />
           <img
             src={deTwo}
-            className="rounded-2xl"
+            className="h-[22rem] w-full rounded-2xl"
             alt="engineering service-2"
           />
           <img
             src={deThree}
-            className="rounded-2xl"
+            className="h-[22rem] w-full rounded-2xl"
             alt="engineering service-3"
           />
         </div>
@@ -63,23 +67,17 @@ const AboutUs = () => {
           the Oil and Gas Sector.
         </h3>
         <div className="flex gap-5">
-          <div className=" bg-tertiary p-6 rounded-sm">
+          <div className=" bg-tertiary w-full p-6 rounded-sm">
             <h4 className=" font-semibold text-lg">Our Mission</h4>
             <p className=" text-base mt-4">
-              Lorem ipsum dolor sit amet consectetur. Sit quis pellentesque arcu
-              vulputate phasellus vestibulum. Id blandit est id enim eget ornare
-              sit. Magna et etiam tellus fusce. Congue erat ultrices magna proin
-              proin et. Vulputate curabitur ultricies odio tellus sit congue
-              risus venenatis faucibus. Et sed pharetra nunc nunc porta. Aliquam
-              eget sed arcu accumsan faucibus amet arcu. Quis eleifend vel
-              tincidunt id. Faucibus sed curabitur eu adipiscing malesuada
-              convallis nunc aliquam nunc. Nibh fusce ligula netus interdum id
-              etiam accumsan placerat rutrum. Massa velit tellus felis tristique
-              duis tellus tempus tincidunt. Adipiscing est euismod eu
-              condimentum et cursus at amet ut.
+              At Datak Engineering, our mission is to deliver unparalleled
+              engineering services that drive success and sustainability in the
+              oil and gas sector. We strive to exceed client expectations by
+              providing cutting-edge solutions, fostering innovation, and
+              upholding the highest standards of quality and safety.
             </p>
           </div>
-          <div className=" bg-tertiary p-6 rounded-sm">
+          <div className=" bg-tertiary w-full p-6 rounded-sm">
             <h4 className=" font-semibold text-lg">Our Vision</h4>
             <p className=" text-base mt-4">
               Lorem ipsum dolor sit amet consectetur. Sit quis pellentesque arcu
@@ -107,13 +105,40 @@ const AboutUs = () => {
             </span>
           </h2>
           <p className="text-center lg:px-[3rem] mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-            habitant dui consectetur sed nam amet, magna. Iet se
+            With years of industry experience and a team of highly skilled
+            professionals, we specialize in four core areas:
           </p>
         </div>
-        {/* <div className="px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem]"> */}
-        <Expertise />
-        {/* </div> */}
+        <div className="w-[100%] grid grid-cols-1 lg:grid-cols-2 gap-8 mt-[2.5rem] lg:mt-[5rem]">
+          <ActivityCard
+            header={"Training service"}
+            info={
+              "Our comprehensive training programs empower professionals to excel in the utilization of design and project management software, equipping them with the skills needed to thrive in today's dynamic engineering landscape."
+            }
+            image={one}
+          />
+          <ActivityCard
+            header={"Design Engineering"}
+            info={
+              "From conceptualization to execution, our design engineering services ensure precision, efficiency, and compliance with regulatory codes and standards. We specialize in process design, mechanical design, piping design, structural design, and 3D modeling using industry-leading software like AutoCAD, SolidWorks, and AVEVA E3D."
+            }
+            image={two}
+          />
+          <ActivityCard
+            header={"Oil and Gas Process Equipment Design"}
+            info={
+              "We are experts in the design and optimization of process equipment for the oil and gas industry. From concept development to detailed engineering, our team leverages industry best practices and innovative technologies to deliver efficient, reliable, and cost-effective solutions."
+            }
+            image={three}
+          />
+          <ActivityCard
+            header={"Technical Support"}
+            info={
+              "Our technical support services provide clients with the expertise and assistance needed to overcome challenges, optimize operations, and ensure compliance with regulatory requirements. Whether it's troubleshooting equipment issues or providing ongoing maintenance support, we are dedicated to helping our clients achieve operational excellence."
+            }
+            image={four}
+          />
+        </div>
       </div>
       <div className="bg-white px-[1.5rem] lg:px-[5rem] text-center py-[3rem] lg:py-[5rem] flex flex-col items-center ">
         <div className="w-[100%] mt-[8rem] flex flex-col items-center">
