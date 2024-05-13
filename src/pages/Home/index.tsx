@@ -28,10 +28,13 @@ const HomePage = () => {
               for the Dynamic Oil and Gas Sector
             </span>
           </h2>
-          <p className="mt-[1.5rem] lg:mt-[2rem] lg:w-[75%]">
+          <p className="mt-[1.5rem] lg:mt-[2rem] lg:w-[80%]">
             At DATAK Engineering Service Limited, we are your trusted partner
             for comprehensive engineering solutions tailored to meet the diverse
-            needs of the oil and gas industry.
+            needs of the oil and gas industry. With expertise spanning training
+            services, design engineering, technical support, and process
+            equipment design, we are committed to delivering excellence at every
+            stage of your project journey.
           </p>
           <div className="mt-[2rem] lg:mt-[3rem] font-medium flex gap-4 lg:gap-6">
             <PrimaryButton path="contact-us">Contact our team</PrimaryButton>
@@ -78,8 +81,10 @@ const HomePage = () => {
             </span>
           </h2>
           <p className="text-center lg:px-[3rem] mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-            habitant dui consectetur sed nam amet, magna. Iet se
+            We align with global standards set by organizations such as the
+            International Organization for Standardization (ISO). Our practices
+            adhere to ethical guidelines, ensuring safety, reliability, and
+            compliance.
           </p>
         </div>
         <Expertise />
@@ -95,8 +100,8 @@ const HomePage = () => {
             ensuring safety, and compliance
           </p>
           <p className=" mb-[2rem]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-            habitant dui consectetur sed nam amet, magna. Iet se
+            ISO 9001:2015; Our commitment to quality management ensures
+            consistent excellence in our products and services.
           </p>
           <PrimaryButton path="contact-us">Contact our team</PrimaryButton>
         </div>
@@ -109,26 +114,26 @@ const HomePage = () => {
           Discover Superior Engineering Innovation,
           <GradientWord word="Your Top Choice." />
         </p>
-        <p className="lg:w-[60%] mt-4">
+        {/* <p className="lg:w-[60%] mt-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet habitant
           dui consectetur sed nam amet, magna. Iet se
-        </p>
+        </p> */}
         <div className="grid lg:grid-cols-4 gap-6 mt-[2rem] lg:mt-[4rem]">
           <ReasonCard
-            header="Contact our team"
+            header="Commitment to Excellence"
             info="We are driven by a passion for excellence in everything we do. From the quality of our services to the relationships we build with our clients, excellence is at the core of our ethos."
           />
           <ReasonCard
-            header="Contact our team"
-            info="We are driven by a passion for excellence in everything we do. From the quality of our services to the relationships we build with our clients, excellence is at the core of our ethos."
+            header="Industry Experience"
+            info="With a proven track record of success and a deep understanding of the oil and gas sector, we bring valuable insights and expertise to every project we undertake."
           />
           <ReasonCard
-            header="Contact our team"
-            info="We are driven by a passion for excellence in everything we do. From the quality of our services to the relationships we build with our clients, excellence is at the core of our ethos."
+            header="Client-Centric Approach"
+            info="We prioritize the needs and goals of our clients, working closely with them to deliver customized solutions that address their unique challenges and objectives."
           />
           <ReasonCard
-            header="Contact our team"
-            info="We are driven by a passion for excellence in everything we do. From the quality of our services to the relationships we build with our clients, excellence is at the core of our ethos."
+            header="Innovation and Sustainability"
+            info="We embrace innovation and sustainability in all aspects of our work, continuously seeking new ways to improve efficiency, reduce environmental impact, and drive long-term value for our clients."
           />
         </div>
         <div className="w-[100%] mt-[8rem] flex flex-col items-center">

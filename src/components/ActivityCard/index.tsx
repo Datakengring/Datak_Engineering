@@ -4,8 +4,8 @@ type IActivity = { header: string; info: string; image: string };
 
 const ActivityCard = ({ header, info, image }: IActivity) => {
   return (
-    <div className="relative bg-[#FCFCFC] h-fit p-[1.5rem] lg:p-[2rem] border-[1px] border-solid border-[#F2F2F2] text-[#333333] rounded-[0.5rem]">
-      <div className="lg:w-[85%]">
+    <div className="relative bg-[#FCFCFC] h-[28rem] p-[1.5rem] lg:p-[2rem] border-[1px] border-solid border-[#F2F2F2] text-[#333333] rounded-[0.5rem]">
+      <div className="lg:w-[90%]">
         <h2 className="text-[1.6rem] font-[600]">{header}</h2>
         <p className="font-[400]">{info}</p>
       </div>
