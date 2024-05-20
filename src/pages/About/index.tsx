@@ -31,19 +31,19 @@ const AboutUs = () => {
           </span>
         </h2>
 
-        <p className=" w-[50%] text-center font-normal text-lg mt-2">
+        <p className="lg:w-[50%] text-center font-normal text-lg mt-2">
           Welcome to Datak Engineering Service Limited, a leading provider of
           innovative engineering solutions tailored to meet the diverse needs of
           the oil and gas industry.
         </p>
       </div>
-      <div className=" bg-white  p-24 w-[100%] flex flex-col gap-2">
-        <h5 className=" font-normal">
+      <div className=" bg-white px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] w-[100%] flex flex-col gap-2">
+        <h5 className="font-normal">
           With a steadfast commitment to excellence, integrity, and client
           satisfaction, we have established ourselves as trusted partners in the
           pursuit of engineering excellence.
         </h5>
-        <div className="flex flex-row gap-10 justify-between w-full mt-7">
+        <div className="flex flex-col lg:flex-row gap-10 justify-between w-full mt-7">
           <img
             src={deOne}
             className="h-[22rem] w-full rounded-2xl"
@@ -66,8 +66,8 @@ const AboutUs = () => {
           Fueling Success with <GradientWord word="Precision Engineering" /> in
           the Oil and Gas Sector.
         </h3>
-        <div className="flex gap-5">
-          <div className=" bg-tertiary w-full p-6 rounded-sm">
+        <div className="flex flex-col lg:flex-row gap-5">
+          <div className=" bg-tertiary w-full p-4 lg:p-6 rounded-sm">
             <h4 className=" font-semibold text-lg">Our Mission</h4>
             <p className=" text-base mt-4">
               At Datak Engineering, our mission is to deliver unparalleled
@@ -77,7 +77,7 @@ const AboutUs = () => {
               upholding the highest standards of quality and safety.
             </p>
           </div>
-          <div className=" bg-tertiary w-full p-6 rounded-sm">
+          <div className=" bg-tertiary w-full p-4 lg:p-6 rounded-sm">
             <h4 className=" font-semibold text-lg">Our Vision</h4>
             <p className=" text-base mt-4">
               Lorem ipsum dolor sit amet consectetur. Sit quis pellentesque arcu
@@ -96,7 +96,7 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="bg-white px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem]">
-        <div className="lg:w-[75%] mt-[4rem] lg:mt-[6rem] flex flex-col items-center mx-auto">
+        <div className="lg:w-[75%] mt-[2rem] lg:mt-[6rem] flex flex-col items-center mx-auto">
           <StarWords word="Our Exoertise" />
           <h2 className="text-textColorPrimary text-center text-[1.2rem] lg:text-[2rem] font-[600]">
             Your Engineering Needs, Our{" "}
@@ -141,7 +141,7 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="bg-white px-[1.5rem] lg:px-[5rem] text-center py-[3rem] lg:py-[5rem] flex flex-col items-center ">
-        <div className="w-[100%] mt-[8rem] flex flex-col items-center">
+        <div className="w-[100%] lg:mt-[8rem] flex flex-col items-center">
           <StarWords word={"Our top clients"} />
           <div className="w-[100%] mt-[2rem] flex flex-wrap justify-center lg:justify-between gap-8">
             <img src={nnpc} alt="nnpc" />
