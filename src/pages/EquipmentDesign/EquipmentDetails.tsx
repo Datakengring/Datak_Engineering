@@ -59,7 +59,8 @@ const EquipmentDetails = () => {
             <img src={e.image} className="" alt={e.title} />
           </div>
           <div className="lg:w-[50%]">
-            <p dangerouslySetInnerHTML={{ __html: e.info }}></p>
+            {/* <p dangerouslySetInnerHTML={{ __html: e.info }}></p> */}
+            <p>{e.info}</p>
           </div>
         </div>
       ))}
