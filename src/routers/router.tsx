@@ -8,6 +8,7 @@ import {
   AboutUs,
   ContactUs,
   EquipmentDesign,
+  EquipmentDetails,
   HomePage,
   RootLayout,
   WhatWeDo,
@@ -29,10 +30,16 @@ export const router = createBrowserRouter(
           <Route index element={<HomePage />}></Route>
           <Route path="what-we-do" element={<WhatWeDo />}></Route>
           <Route path="about-us" element={<AboutUs />}></Route>
-          <Route
-            path="process-equipment-design"
-            element={<EquipmentDesign />}
-          ></Route>
+          <Route>
+            <Route
+              path="process-equipment-design"
+              element={<EquipmentDesign />}
+            />
+            <Route
+              path="process-equipment-design/:slug"
+              element={<EquipmentDetails />}
+            />
+          </Route>
           <Route path="contact-us" element={<ContactUs />}></Route>
         </Route>
       </Route>

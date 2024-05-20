@@ -22,7 +22,7 @@ import ActivityCard from "../../components/ActivityCard";
 const AboutUs = () => {
   return (
     <MainWrapper>
-      <div className=" bg-secondary flex flex-col justify-center items-center px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem]">
+      <div className=" bg-secondary bg-[url('/svgs/bg-grid.svg')] flex flex-col justify-center items-center px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem]">
         <StarWords word="About us" />
         <h2 className=" text-[2rem] font-[600] lg:text-[2.4rem]">
           Welcome to{" "}
