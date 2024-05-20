@@ -12,6 +12,9 @@ export default {
         linearTwo: "#6252F6",
         yellow: "#EAA508",
       },
+      boxShadow: {
+        "2xl": "2px 2px 30px 4px rgb(0 0 0 / 0.25)",
+      },
     },
   },
   plugins: [],

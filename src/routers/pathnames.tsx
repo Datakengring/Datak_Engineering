@@ -6,3 +6,6 @@ export const AboutUs = lazy(() => import("../pages/About"));
 export const WhatWeDo = lazy(() => import("../pages/WhatWeDo"));
 export const EquipmentDesign = lazy(() => import("../pages/EquipmentDesign"));
 export const ContactUs = lazy(() => import("../pages/Contact"));
+export const EquipmentDetails = lazy(
+  () => import("../pages/EquipmentDesign/EquipmentDetails")
+);
