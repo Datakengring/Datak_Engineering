@@ -100,8 +100,8 @@ const HomePage = () => {
             ensuring safety, and compliance
           </p>
           <p className=" mb-[2rem]">
-            ISO 9001:2015; Our commitment to quality management ensures
-            consistent excellence in our products and services.
+            Our commitment to quality management ensures consistent excellence
+            in our products and services.
           </p>
           <PrimaryButton path="contact-us">Contact our team</PrimaryButton>
         </div>

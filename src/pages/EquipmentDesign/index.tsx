@@ -13,7 +13,7 @@ const EquipmentDesign = () => {
       <MainWrapper>
         <div className=" bg-secondary bg-[url('/svgs/bg-grid.svg')] flex flex-col justify-center items-center px-[1.5rem] lg:px-[5rem] text-center py-[3rem] lg:py-[5rem]">
           <StarWords word="Process equipment design" />
-          <h2 className="lg:w-[80%] text-[2rem] font-[600] lg:text-[2.4rem]">
+          <h2 className="lg:w-[80%] text-[1.8rem] font-[600] lg:text-[2.4rem]">
             <span className=" bg-gradient-to-r from-linearOne to-linearTwo inline-block text-transparent bg-clip-text ">
               Precision Engineering
             </span>
@@ -21,13 +21,13 @@ const EquipmentDesign = () => {
             for Advanced Process Equipment Solutions.
           </h2>
 
-          <p className=" w-[75%] text-center font-normal text-lg mt-4">
+          <p className=" lg:w-[75%] text-center font-normal text-lg mt-4">
             With years of industry experience and a team of highly skilled
             professionals, we specialize in four core areas:
           </p>
         </div>
         <div className="bg-white px-[1.5rem] lg:px-[5rem] text-center py-[3rem] lg:py-[5rem] flex flex-col items-center ">
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
             {equipmentData.map((e, index) => (
               <EquipmentCard
                 key={index}

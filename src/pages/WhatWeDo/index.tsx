@@ -13,14 +13,14 @@ import ActivityCard from "../../components/ActivityCard";
 const WhatWeDo = () => {
   return (
     <MainWrapper>
-      <div className="bg-[url('/svgs/bg-grid.svg')] bg-secondary flex flex-col justify-center items-center px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem]">
+      <div className="bg-[url('/svgs/bg-grid.svg')] bg-secondary flex flex-col justify-center items-center text-center px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem]">
         <StarWords word="What We Do" />
         <h2 className=" text-[2rem] font-[600] lg:text-[2.4rem]">
           <GradientWord word="Engineering Excellence" />
           for Oil and Gas Challenges.
         </h2>
 
-        <p className=" w-[50%] text-center font-normal text-lg mt-2">
+        <p className="lg:w-[50%] text-center font-normal text-lg mt-2">
           With years of industry experience and a team of highly skilled
           professionals, we specialize in four core areas:
         </p>
