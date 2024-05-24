@@ -7,10 +7,13 @@ import SuspenseLayout from "../layouts/SuspenseLayout";
 import {
   AboutUs,
   ContactUs,
+  DesignEngineering,
   EquipmentDesign,
   EquipmentDetails,
   HomePage,
   RootLayout,
+  TechnicalSupport,
+  Training,
   WhatWeDo,
 } from "./pathnames";
 import SplashLayout from "../layouts/SplashLayout";
@@ -28,7 +31,18 @@ export const router = createBrowserRouter(
       <Route path="/" element={<RootLayout />}>
         <Route element={<SuspenseLayout />}>
           <Route index element={<HomePage />}></Route>
-          <Route path="what-we-do" element={<WhatWeDo />}></Route>
+          <Route>
+            <Route path="what-we-do" element={<WhatWeDo />} />
+            <Route path="what-we-do/training-service" element={<Training />} />
+            <Route
+              path="what-we-do/design-engineering"
+              element={<DesignEngineering />}
+            />
+            <Route
+              path="what-we-do/technical-support"
+              element={<TechnicalSupport />}
+            />
+          </Route>
           <Route path="about-us" element={<AboutUs />}></Route>
           <Route>
             <Route

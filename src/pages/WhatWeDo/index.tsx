@@ -9,6 +9,7 @@ import three from "/images/three.webp";
 import four from "/images/four.webp";
 import ContactSection from "../../components/CommonCards/ContactSection";
 import ActivityCard from "../../components/ActivityCard";
+import { Outlet } from "react-router-dom";
 
 const WhatWeDo = () => {
   return (
@@ -17,6 +18,7 @@ const WhatWeDo = () => {
         <StarWords word="What We Do" />
         <h2 className=" text-[2rem] font-[600] lg:text-[2.4rem]">
           <GradientWord word="Engineering Excellence" />
+          {"  "}
           for Oil and Gas Challenges.
         </h2>
 
@@ -32,6 +34,7 @@ const WhatWeDo = () => {
             info={
               "Our comprehensive training programs empower professionals to excel in the utilization of design and project management software, equipping them with the skills needed to thrive in today's dynamic engineering landscape."
             }
+            link="training-service"
             image={one}
           />
           <ActivityCard
@@ -39,6 +42,7 @@ const WhatWeDo = () => {
             info={
               "From conceptualization to execution, our design engineering services ensure precision, efficiency, and compliance with regulatory codes and standards. We specialize in process design, mechanical design, piping design, structural design, and 3D modeling using industry-leading software like AutoCAD, SolidWorks, and AVEVA E3D."
             }
+            link="design-engineering"
             image={two}
           />
           <ActivityCard
@@ -46,6 +50,7 @@ const WhatWeDo = () => {
             info={
               "We are experts in the design and optimization of process equipment for the oil and gas industry. From concept development to detailed engineering, our team leverages industry best practices and innovative technologies to deliver efficient, reliable, and cost-effective solutions."
             }
+            link="process-equipment-design"
             image={three}
           />
           <ActivityCard
@@ -53,6 +58,7 @@ const WhatWeDo = () => {
             info={
               "Our technical support services provide clients with the expertise and assistance needed to overcome challenges, optimize operations, and ensure compliance with regulatory requirements. Whether it's troubleshooting equipment issues or providing ongoing maintenance support, we are dedicated to helping our clients achieve operational excellence."
             }
+            link="technical-support"
             image={four}
           />
         </div>
@@ -78,6 +84,7 @@ const WhatWeDo = () => {
         </div>
       </div>
       <ContactSection />
+      <Outlet />
     </MainWrapper>
   );
 };
