@@ -1,11 +1,13 @@
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { IEquipment, equipmentData } from "../../utils/data";
 import MainWrapper from "../../layouts/MainWrapper";
 import ContactSection from "../../components/CommonCards/ContactSection";
+import left from "/svgs/arrow-left.svg";
 // import { useEffect, useState } from "react";
 
 const EquipmentDetails = () => {
   const { slug } = useParams();
+  const navigate = useNavigate();
   //   const [data, setData] = useState({});
 
   //Using find for the objects
@@ -23,14 +25,19 @@ const EquipmentDetails = () => {
   };
   const equipments = equipmentData.filter(checkEquipment);
 
-  console.log(equipments);
-
   //   useEffect(() => {
   //     setData(equipments);
   //   }, [equipments]);
   return (
     <MainWrapper key={slug}>
       <div className="bg-[url('/svgs/bg-grid.svg')] bg-secondary flex flex-col justify-center items-center px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem]">
+        <button
+          className="absolute flex gap-1 left-[5rem] top-[7rem] hover:underline"
+          onClick={() => navigate(-1)}
+        >
+          <img src={left} className="h-6" alt="left-arrow" />
+          <p className="text-yellow">Go back</p>
+        </button>
         {equipments.map((e, i) => (
           <div key={i} className="flex flex-col justify-center items-center ">
             <h2 className="lg:w-[80%] text-[2rem] text-center font-[600] lg:text-[2.4rem]">
@@ -59,8 +66,12 @@ const EquipmentDetails = () => {
             <img src={e.image} className="" alt={e.title} />
           </div>
           <div className="lg:w-[50%]">
-            {/* <p dangerouslySetInnerHTML={{ __html: e.info }}></p> */}
-            <p>{e.info}</p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: typeof e.info === "string" ? e.info : "",
+              }}
+            ></p>
+            {/* <p>{e.info}</p> */}
           </div>
         </div>
       ))}

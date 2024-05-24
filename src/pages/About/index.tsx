@@ -115,6 +115,7 @@ const AboutUs = () => {
             info={
               "Our comprehensive training programs empower professionals to excel in the utilization of design and project management software, equipping them with the skills needed to thrive in today's dynamic engineering landscape."
             }
+            link="training-service"
             image={one}
           />
           <ActivityCard
@@ -122,6 +123,7 @@ const AboutUs = () => {
             info={
               "From conceptualization to execution, our design engineering services ensure precision, efficiency, and compliance with regulatory codes and standards. We specialize in process design, mechanical design, piping design, structural design, and 3D modeling using industry-leading software like AutoCAD, SolidWorks, and AVEVA E3D."
             }
+            link="design-engineering"
             image={two}
           />
           <ActivityCard
@@ -129,6 +131,7 @@ const AboutUs = () => {
             info={
               "We are experts in the design and optimization of process equipment for the oil and gas industry. From concept development to detailed engineering, our team leverages industry best practices and innovative technologies to deliver efficient, reliable, and cost-effective solutions."
             }
+            link="process-equipment-design"
             image={three}
           />
           <ActivityCard
@@ -136,6 +139,7 @@ const AboutUs = () => {
             info={
               "Our technical support services provide clients with the expertise and assistance needed to overcome challenges, optimize operations, and ensure compliance with regulatory requirements. Whether it's troubleshooting equipment issues or providing ongoing maintenance support, we are dedicated to helping our clients achieve operational excellence."
             }
+            link="technical-support"
             image={four}
           />
         </div>
