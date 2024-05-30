@@ -1,8 +1,8 @@
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { IEquipment, equipmentData } from "../../utils/data";
-import MainWrapper from "../../layouts/MainWrapper";
-import ContactSection from "../../components/CommonCards/ContactSection";
+import { IEquipment, equipmentData } from "../../../utils/data";
+import MainWrapper from "../../../layouts/MainWrapper";
 import left from "/svgs/arrow-left.svg";
+import EnquiryForm from "../../../components/EnquiryForm";
 // import { useEffect, useState } from "react";
 
 const EquipmentDetails = () => {
@@ -30,9 +30,9 @@ const EquipmentDetails = () => {
   //   }, [equipments]);
   return (
     <MainWrapper key={slug}>
-      <div className="bg-[url('/svgs/bg-grid.svg')] bg-secondary flex flex-col justify-center items-center px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem]">
+      <div className="bg-[url('/svgs/bg-grid.svg')] bg-secondary flex flex-col justify-center items-center px-[1.5rem] relative lg:px-[5rem] py-[3rem] lg:py-[5rem]">
         <button
-          className="absolute flex gap-1 left-[5rem] top-[7rem] hover:underline"
+          className="absolute flex gap-1 left-[1rem] top-[1rem] lg:left-[5rem] lg:top-[3rem] hover:underline"
           onClick={() => navigate(-1)}
         >
           <img src={left} className="h-6" alt="left-arrow" />
@@ -76,7 +76,7 @@ const EquipmentDetails = () => {
         </div>
       ))}
       {/* </div> */}
-      <ContactSection />
+      <EnquiryForm enquiryData={equipments[0].title} />
     </MainWrapper>
   );
 };
