@@ -1,7 +1,7 @@
-import EnquiryForm from "../../components/EnquiryForm";
 import GradientWord from "../../components/GradientWord";
 import StarWords from "../../components/StarWords";
 import MainWrapper from "../../layouts/MainWrapper";
+import UseForm from "../../components/UseForm";
 
 const ContactUs = () => {
   return (
@@ -13,7 +13,7 @@ const ContactUs = () => {
         </h2>
       </div>
       <div className="bg-white px-[1.5rem] flex justify-center lg:px-[5rem] py-[3rem] lg:py-[5rem] ">
-        <EnquiryForm />
+        <UseForm />
       </div>
     </MainWrapper>
   );

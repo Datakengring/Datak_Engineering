@@ -15,6 +15,9 @@ import {
   TechnicalSupport,
   Training,
   WhatWeDo,
+  DesignSoftware,
+  PipingEngineering,
+  ProjectManagement,
 } from "./pathnames";
 import SplashLayout from "../layouts/SplashLayout";
 
@@ -33,7 +36,24 @@ export const router = createBrowserRouter(
           <Route index element={<HomePage />}></Route>
           <Route>
             <Route path="what-we-do" element={<WhatWeDo />} />
-            <Route path="what-we-do/training-service" element={<Training />} />
+            <Route>
+              <Route
+                path="what-we-do/training-service"
+                element={<Training />}
+              />
+              <Route
+                path="what-we-do/training-service/project-management"
+                element={<ProjectManagement />}
+              />
+              <Route
+                path="what-we-do/training-service/piping-engineering"
+                element={<PipingEngineering />}
+              />
+              <Route
+                path="what-we-do/training-service/design-software"
+                element={<DesignSoftware />}
+              />
+            </Route>
             <Route
               path="what-we-do/design-engineering"
               element={<DesignEngineering />}
