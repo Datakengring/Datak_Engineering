@@ -63,7 +63,7 @@ const Footer = () => {
               <a href="mailto:contact@datak.ng">contact@datak.ng</a>
             </p>
             <p className=" text-end">
-              <a href="tel:+234 814 800 2982">+234 814 800 2982</a>
+              <a href="tel:+234 814 800 2982">+234 810 323 3267</a>
             </p>
           </div>
         </div>
