@@ -1,4 +1,4 @@
-import datak from "/svgs/datak.svg";
+import datak from "/images/updatedDatak.png";
 
 const ReasonCard = ({ header, info }: { header: string; info: string }) => {
   return (
@@ -7,7 +7,7 @@ const ReasonCard = ({ header, info }: { header: string; info: string }) => {
         <img className="h-5" src={datak} alt="logo" />
       </div>
       <h2 className="text-[1.2rem] text-left font-[600] mb-3">{header}</h2>
-      <p className="font-[400] text-left">{info}</p>
+      <p className="font-[400] text-justify hyphens-auto">{info}</p>
     </div>
   );
 };

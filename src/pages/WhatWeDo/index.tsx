@@ -1,11 +1,11 @@
 import StarWords from "../../components/StarWords";
 import MainWrapper from "../../layouts/MainWrapper";
-import engineer from "/images/engineer.webp";
+import welder from "/images/welder.webp";
 import GradientWord from "../../components/GradientWord";
 import PrimaryButton from "../../components/Buttons/PrimaryButton";
 import one from "/images/one.webp";
-import two from "/images/two.webp";
-import three from "/images/three.webp";
+import two from "/images/Gas-Pipe.webp";
+import three from "/images/slide.webp";
 import four from "/images/four.webp";
 import ContactSection from "../../components/CommonCards/ContactSection";
 import ActivityCard from "../../components/ActivityCard";
@@ -46,11 +46,11 @@ const WhatWeDo = () => {
             image={two}
           />
           <ActivityCard
-            header={"Oil and Gas Process Equipment Design"}
+            header={"Process Equipment"}
             info={
               "We are experts in the design and optimization of process equipment for the oil and gas industry. From concept development to detailed engineering, our team leverages industry best practices and innovative technologies to deliver efficient, reliable, and cost-effective solutions."
             }
-            link="process-equipment-design"
+            link="/process-equipment"
             image={three}
           />
           <ActivityCard
@@ -80,7 +80,7 @@ const WhatWeDo = () => {
           <PrimaryButton path="contact-us">Contact our team</PrimaryButton>
         </div>
         <div className="lg:w-[40%] p-3 bg-[#08005114] rounded-[0.75rem]">
-          <img src={engineer} alt="engineer" className="object-cover w-full" />
+          <img src={welder} alt="welder" className="object-cover w-full" />
         </div>
       </div>
       <ContactSection />

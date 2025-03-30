@@ -66,11 +66,11 @@ export const router = createBrowserRouter(
           <Route path="about-us" element={<AboutUs />}></Route>
           <Route>
             <Route
-              path="process-equipment-design"
+              path="process-equipment"
               element={<EquipmentDesign />}
             />
             <Route
-              path="process-equipment-design/:slug"
+              path="process-equipment/:slug"
               element={<EquipmentDetails />}
             />
           </Route>

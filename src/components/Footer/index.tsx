@@ -1,9 +1,8 @@
 import { NavLink } from "react-router-dom";
-import logo from "/svgs/logo.svg";
+import logo from "/images/updatedLogo.png";
 import {
-  PiFacebookLogoFill,
   PiInstagramLogoFill,
-  PiTwitterLogoFill,
+  PiLinkedinLogoFill
 } from "react-icons/pi";
 
 const Footer = () => {
@@ -15,8 +14,9 @@ const Footer = () => {
             <img src={logo} className="h-[2rem]" alt="logo" />
           </NavLink>
           <p className="lg:w-[50%] mt-[2rem]">
-            Our mission is to deliver unparalleled engineering services that
-            drive success andsustainability in the oil and gas sector
+            To deliver integrated energy solutions that exceed
+            client expectations, ensuring safety, quality, and
+            sustainability in all our projects.
           </p>
         </div>
         <div className="flex">
@@ -30,28 +30,23 @@ const Footer = () => {
             </NavLink>
             <NavLink
               className="hover:underline"
-              to={"process-equipment-design"}
+              to={"process-equipment"}
             >
-              Process equipment design
+              Process equipment
             </NavLink>
             <NavLink className="hover:underline" to={"contact-us"}>
               Contact Us
             </NavLink>
           </div>
-          <div className="lg:w-[13rem] flex flex-col gap-2 text-black">
+          <div className="lg:w-[13rem] flex flex-col gap-2 text-black items-end">
             <div className="flex items-center text-end justify-end gap-4">
               <a href="">
-                <PiFacebookLogoFill
-                  style={{ color: "#080051", fontSize: "1.8rem" }}
-                />
-              </a>
-              <a href="">
-                <PiTwitterLogoFill
-                  style={{ color: "#080051", fontSize: "1.8rem" }}
-                />
-              </a>
-              <a href="">
                 <PiInstagramLogoFill
+                  style={{ color: "#080051", fontSize: "1.8rem" }}
+                />
+              </a>
+              <a href="https://www.linkedin.com/company/datak-engineering">
+                <PiLinkedinLogoFill
                   style={{ color: "#080051", fontSize: "1.8rem" }}
                 />
               </a>
@@ -60,10 +55,10 @@ const Footer = () => {
               41 Voyage Close Kaura District Abuja Nigeria.
             </p>
             <p className=" text-end">
-              <a href="mailto:contact@datak.ng">contact@datak.ng</a>
+              <a href="mailto:info@datakenergyservices.com">info@datakenergyservices.com</a>
             </p>
             <p className=" text-end">
-              <a href="tel:+234 814 800 2982">+234 810 323 3267</a>
+              <a href="tel:+234 708 816 4404">+234 708 816 4404</a>
             </p>
           </div>
         </div>

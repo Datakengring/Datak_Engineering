@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "/svgs/logo.svg";
+import logo from "/images/updatedLogo.png";
 import { navlinks } from "../../utils/data";
 import { useState } from "react";
 import MobileNav from "./MobileNav";

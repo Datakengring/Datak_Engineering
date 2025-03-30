@@ -7,8 +7,8 @@ import StarWords from "../../../components/StarWords";
 import MainWrapper from "../../../layouts/MainWrapper";
 import left from "/svgs/arrow-left.svg";
 import one from "/images/t-one.webp";
-import two from "/images/t-two.webp";
-import three from "/images/t-three.webp";
+import two from "/images/Gas-Pipe.webp";
+import three from "/images/slide.webp";
 
 const Training = () => {
   const navigate = useNavigate();
