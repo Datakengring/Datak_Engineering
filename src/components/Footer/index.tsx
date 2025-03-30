@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="flex flex-col lg:flex-row py-[2rem] px-[1.5rem] lg:px-[4rem] lg:gap-[5rem] gap-[2rem] justify-between">
         <div className="flex-grow">
           <NavLink to={"/"}>
-            <img src={logo} className="h-[2rem]" alt="logo" />
+            <img src={logo} className="h-[3rem]" alt="logo" />
           </NavLink>
           <p className="lg:w-[50%] mt-[2rem]">
             To deliver integrated energy solutions that exceed

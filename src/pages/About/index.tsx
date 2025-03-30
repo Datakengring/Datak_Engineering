@@ -3,7 +3,7 @@ import StarWords from "../../components/StarWords";
 import MainWrapper from "../../layouts/MainWrapper";
 import deOne from "/images/welder.webp";
 import deTwo from "/images/slide2.webp";
-import deThree from "/images/blog.webp"
+import deThree from "/images/hydraulic.webp"
 import nnpc from "/svgs/nnpc.svg";
 import shells from "/svgs/shells.svg";
 import seplat from "/svgs/seplat.svg";
