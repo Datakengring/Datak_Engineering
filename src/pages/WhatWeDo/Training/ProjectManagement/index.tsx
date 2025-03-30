@@ -6,7 +6,7 @@ import StarWords from "../../../../components/StarWords";
 import MainWrapper from "../../../../layouts/MainWrapper";
 import left from "/svgs/arrow-left.svg";
 import primavera from "/images/primavera.webp";
-import engineer from "/images/engineer.webp";
+import welder from "/images/welder.webp";
 
 const ProjectManagement = () => {
   const navigate = useNavigate();
@@ -75,7 +75,7 @@ const ProjectManagement = () => {
       </div>
       <div className="bg-white px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] flex flex-col gap-[3rem] justify-between items-center lg:gap-0 lg:flex-row">
         <div className="lg:w-[40%] p-3 bg-[#08005114] rounded-[0.75rem]">
-          <img src={engineer} alt="engineer" />
+          <img src={welder} alt="welder" />
         </div>
         <div className="lg:w-[50%] text-left">
           <StarWords word={"What is Primavera P6"} />
