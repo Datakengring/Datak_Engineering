@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "/svgs/logo.svg";
+import logo from "/images/updatedLogo.png";
 import { navlinks } from "../../utils/data";
 import { useState } from "react";
 import MobileNav from "./MobileNav";
@@ -10,7 +10,7 @@ const NavBar = () => {
     <>
       <nav className="w-[100%] h-[5rem] px-[1.5rem] z-30 lg:px-[4rem] bg-white flex flex-row justify-between items-center font-[500] gap-[3rem] fixed shadow-sm">
         <NavLink to={"/"}>
-          <img src={logo} className="h-[2rem]" alt="logo" />
+          <img src={logo} className="h-[3rem]" alt="logo" />
         </NavLink>
         <div className="flex-grow hidden lg:flex justify-center gap-8 ">
           {navlinks.map((nav, i) => (

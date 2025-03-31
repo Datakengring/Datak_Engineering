@@ -7,7 +7,7 @@ export const navlinks: INavLinks[] = [
   { name: "Home", path: "/" },
   { name: "What we do", path: "what-we-do" },
   { name: "About us", path: "about-us" },
-  { name: "Process equipment design", path: "process-equipment-design" },
+  { name: "Process equipment", path: "process-equipment" },
 ];
 
 export type IEquipment = {
@@ -25,19 +25,13 @@ export const equipmentData: IEquipment[] = [
     info: "A test separator is a vital piece of process equipment used in the oil and gas industry to separate well fluids into gas, oil, and water components for accurate measurement and analysis. It plays a crucial role in evaluating well performance, determining production rates, and assessing reservoir characteristics.<br/><br/> We specialize in providing detailed design solutions for test separators, ensuring optimal performance, reliability, and compliance with industry standards. Our experienced engineers utilize advanced design software and adhere to codes and standards such as ASME, API, and ANSI to develop precise and efficient designs tailored to your project requirements.<br/><br/>From conceptualization to fabrication, our design process focuses on enhancing operational efficiency, minimizing environmental impact, and maximizing safety. We deliver innovative and reliable test separator designs that optimize oil and gas production processes and drive success in the industry.",
   },
   {
-    image: "/images/pig-launcher.webp",
-    title: "Pig Launcher",
-    path: "pig-launcher",
-    info: "A pig launcher is an essential component in the oil and gas industry used for launching and receiving pipeline inspection gauges, also known as <strong>pigs</strong>, into and out of pipelines. These pigs perform critical functions such as cleaning, inspecting, and maintaining pipelines to ensure operational integrity and efficiency.<br/><br/>We specialize in providing detailed design solutions for pig launchers, optimizing their performance, reliability, and safety. Our experienced engineers employ advanced design software and adhere to industry codes and standards such as ASME, API, and ANSI to develop precise and efficient designs tailored to your project requirements.<br/><br/>From initial concept to fabrication, our design process focuses on enhancing operational efficiency, minimizing environmental impact, and maximizing safety. We to deliver innovative and reliable pig launcher designs that optimize crude oil refinement processes and drive success in the oil and gas industry.",
-  },
-  {
     image: "/images/three-phase.webp",
     title: "Three Phase Separator",
     path: "three-phase-separator",
     info: "A three-phase separator is a crucial piece of process equipment utilized in the oil and gas industry to separate incoming well fluids into three distinct phases: gas, oil, and water. This separation process is essential for refining crude oil, purifying natural gas, and ensuring optimal product quality and efficiency.<br/><br/>We specialize in providing detailed design solutions for three-phase separators, optimizing their performance, reliability, and safety. Our experienced engineers utilize advanced design software and adhere to industry codes and standards such as ASME, API, and ANSI to develop precise and efficient designs tailored to your project requirements.<br/><br/>From initial concept to fabrication, our design process focuses on enhancing operational efficiency, minimizing environmental impact, and maximizing safety. We deliver innovative and reliable three-phase separator designs that optimize crude oil refinement processes and drive success in the oil and gas industry.",
   },
   {
-    image: "/images/two-phase.webp",
+    image: "/images/two-phase2.webp",
     title: "Two Phase Separator",
     path: "two-phase-separator",
     info: "A two-phase separator is a fundamental component in the oil and gas industry used to separate well fluids into two main phases: gas and liquid. This separation process is critical for refining crude oil, removing impurities, and ensuring the quality of the end product.<br/><br/>We specialize in providing detailed design solutions for two-phase separators, optimizing their performance, reliability, and safety. Our experienced engineers utilize advanced design software and adhere to industry codes and standards such as ASME, API, and ANSI to develop precise and efficient designs tailored to your project requirements.<br/><br/>From conceptualization to fabrication, our design process focuses on enhancing operational efficiency, minimizing environmental impact, and maximizing safety. We deliver innovative and reliable two-phase separator designs that optimize crude oil refinement processes and drive success in the oil and gas industry.",
@@ -103,19 +97,7 @@ export const equipmentData: IEquipment[] = [
     info: "A Natural Gas Metering Skid is a critical component in the oil and gas industry used to accurately measure the flow rate and quantity of natural gas extracted from production wells. It plays a vital role in monitoring production levels, optimizing resource allocation, and ensuring compliance with regulatory requirements.<br/><br/>We specialize in providing detailed design solutions for Natural Gas Metering Skids, optimizing their performance, accuracy, and reliability. Our experienced engineers utilize advanced design software and adhere to industry codes and standards such as ASME, API, and ANSI to develop precise and efficient designs tailored to your project requirements.<br/><br/>From conceptualization to fabrication, our design process focuses on enhancing measurement accuracy, minimizing environmental impact, and maximizing safety. We deliver innovative and reliable Natural Gas Metering Skid designs that optimize crude oil refinement processes and drive success in the oil and gas industry.",
   },
   {
-    image: "/images/production-manifold.webp",
-    title: "Spherical tank",
-    path: "spherical-tank",
-    info: "A Spherical Gas Tank is a specialized storage vessel commonly used in the oil and gas industry for storing liquefied gases, including propane, butane, and natural gas liquids (NGLs). Its distinctive spherical shape allows for efficient storage and distribution of gases, providing a secure and reliable solution for handling volatile substances.<br/><br/>We specialize in providing detailed design solutions for Spherical Gas Tanks, ensuring optimal performance, reliability, and safety. Our experienced engineers utilize advanced design software and adhere to industry codes and standards such as ASME, API, and ANSI to develop precise and efficient designs tailored to your project requirements.<br/><br/>From conceptualization to fabrication, our design process focuses on enhancing structural integrity, minimizing environmental impact, and maximizing safety. We deliver innovative and reliable Spherical Gas Tank designs that optimize crude oil refinement processes and drive success in the oil and gas industry.",
-  },
-  {
-    image: "/images/production-manifold.webp",
-    title: "LNG Sales Station",
-    path: "lng-sales-station",
-    info: "An LNG Sales Station is a crucial facility in the oil and gas industry responsible for dispensing liquefied natural gas (LNG) to customers for various applications, such as transportation fuel, industrial processes, and power generation. These stations play a vital role in enabling the distribution of LNG to end-users efficiently and safely.<br/><br/>We specialize in providing detailed design solutions for LNG Sales Stations, ensuring their functionality, reliability, and safety. Our experienced engineers utilize advanced design software and adhere to industry codes and standards such as ASME, API, and ANSI to develop precise and efficient designs tailored to your project requirements.<br/><br/>From conceptualization to fabrication, our design process focuses on optimizing storage and dispensing systems, maximizing operational efficiency, and ensuring compliance with regulatory requirements. We deliver innovative and reliable LNG Sales Station designs that facilitate the distribution of LNG and drive success in the oil and gas industry.",
-  },
-  {
-    image: "/images/production-manifold.webp",
+    image: "/images/wellhead-christmas-tree.webp",
     title: "Wellhead Christmas Tree",
     path: "wellhead-christmas-tree",
     info: "A Wellhead Christmas Tree is a vital component in the oil and gas industry, serving as the interface between the wellbore and the surface equipment. It consists of a series of valves, fittings, and gauges arranged in a tree-like structure, hence the name, to control the flow of fluids during well operations.<br/><br/>We specialize in providing detailed design solutions for Wellhead Christmas Trees, ensuring their functionality, reliability, and safety. Our experienced engineers utilize advanced design software and adhere to industry codes and standards such as API 6A and API 17D to develop precise and efficient designs tailored to your project requirements.<br/><br/>From conceptualization to fabrication, our design process focuses on optimizing the performance of each component, maximizing operational efficiency, and ensuring compliance with regulatory requirements. We deliver innovative and reliable Wellhead Christmas Tree designs that safeguard oil and gas wells and drive success in the industry.",

@@ -1,10 +1,10 @@
 import MainWrapper from "../../layouts/MainWrapper";
-import heroOne from "/images/engineers.webp";
+import heroOne from "/images/hero.webp";
 import PrimaryButton from "../../components/Buttons/PrimaryButton";
 import SecondaryButton from "../../components/Buttons/SecondaryButton";
 import StarWords from "../../components/StarWords";
 import GradientWord from "../../components/GradientWord";
-import inspect from "/images/inspect.webp";
+import inspect from "/images/slide2.webp";
 import ReasonCard from "../../components/ReasonCard";
 import nnpc from "/svgs/nnpc.svg";
 import shells from "/svgs/shells.svg";
@@ -22,14 +22,14 @@ const HomePage = () => {
       <div className="bg-secondary bg-[url('/svgs/bg-grid.svg')] px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] flex flex-col gap-[3rem] lg:gap-0 lg:flex-row">
         <div className="w-[100%] lg:w-[50%]">
           <h2 className="bg-gradient-to-r from-linearOne to-linearTwo inline-block text-transparent bg-clip-text text-[1.8rem] font-[600] lg:text-[2.4rem]">
-            Precision Engineering
+            Energy Services
             <br />
             <span className="text-textColorPrimary">
               for the Dynamic Oil and Gas Sector
             </span>
           </h2>
           <p className="mt-[1.5rem] lg:mt-[2rem] lg:w-[80%]">
-            At DATAK Engineering Service Limited, we are your trusted partner
+            At DATAK Energy Service Limited, we are your trusted partner
             for comprehensive engineering solutions tailored to meet the diverse
             needs of the oil and gas industry. With expertise spanning training
             services, design engineering, technical support, and process
@@ -41,8 +41,22 @@ const HomePage = () => {
             <SecondaryButton path={"what-we-do"}>What we do</SecondaryButton>
           </div>
         </div>
-        <div className="w-[100%] lg:w-[50%] flex justify-center">
-          <img className="lg:h-[30rem]" src={heroOne} alt="HeroImg1" />
+        <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="relative lg:w-4/5">
+          <img
+            className="lg:h-[30rem] object-cover rounded-3xl "
+            src={heroOne}
+            alt="Hero Image"
+          />
+          <div className="absolute bottom-0 w-full left-0 bg-black/5 backdrop-blur-[25.7px] p-4 rounded-b-xl text-white">
+            <p className="font-semibold">
+              Ethical guidelines, ensuring safety, reliability, and compliance
+            </p>
+            <p className="text-sm">
+              Elevate your engineering level today by consulting our team
+            </p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="bg-white px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] ">

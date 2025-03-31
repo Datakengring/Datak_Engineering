@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import anime from "animejs";
-import logo from "/svgs/logo.svg";
+import logo from "/images/updatedLogo.png";
 
 const SplashScreen = ({ finishLoading }: { finishLoading: () => void }) => {
   // const [isMounted, setIsMounted] = useState(false);

@@ -63,7 +63,7 @@ const EquipmentDetails = () => {
           className="bg-white px-[1.5rem] lg:px-[5rem] py-[3rem] lg:py-[5rem] flex flex-col gap-[3rem] justify-between items-center lg:gap-0 lg:flex-row"
         >
           <div className="lg:w-[40%] h-[16rem] lg:h-[28rem] flex justify-center items-center p-3 bg-[#08005114] rounded-[0.75rem]">
-            <img src={e.image} className="" alt={e.title} />
+            <img src={e.image} className="w-full h-full object-contain" alt={e.title} />
           </div>
           <div className="lg:w-[50%]">
             <p
