@@ -63,11 +63,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-[80%] text-center h-[3rem] flex justify-center items-center border-t-[2px] border-solid border-[#F8F8FA]">
-        <p className="text-[0.75rem]">Copyright © 2024 Datak</p>
-      </div>
+    <div className="w-[80%] text-center h-[3rem] flex justify-center items-center border-t-[2px] border-solid border-[#F8F8FA]">
+  <p className="text-[0.75rem]">Copyright © {new Date().getFullYear()} Datak</p>
+</div>
     </div>
   );
 };
 
 export default Footer;
+
+
